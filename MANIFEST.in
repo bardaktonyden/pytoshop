@@ -1,5 +1,6 @@
-recursive-include pytoshop *.pyx
-
+include AUTHORS.rst
+include CONTRIBUTING.rst
+include HISTORY.rst
 recursive-include tests *
 recursive-exclude * __pycache__
 recursive-exclude * *.py[co]

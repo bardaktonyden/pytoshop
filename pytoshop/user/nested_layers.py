@@ -170,7 +170,6 @@ class Group(Layer):
     def closed(self, value):  # type: (Any) -> None
         self._closed = bool(value)
 
-
 class Image(Layer):
     """
     A `Layer` containing image data, i.e. a leaf node.

@@ -1,24 +1,20 @@
 # -*- coding: utf-8 -*-
 
-
 """
 The `ColorModeData` section.
 """
 
-
 from __future__ import unicode_literals, absolute_import
-
 
 from . import docs
 from . import util
-
 
 from typing import BinaryIO, TYPE_CHECKING  # NOQA
 if TYPE_CHECKING:
     from . import core  # NOQA
 
-
 class ColorModeData(object):
+    
     """
     Color mode data section.
 
@@ -37,6 +33,7 @@ class ColorModeData(object):
     Note that ``pytoshop`` doesn't do anything meaningful for color
     mode data, and only stores the raw bytes in order to round-trip.
     """
+    
     def __init__(self,
                  data=b''  # type: bytes
                  ):  # type: (...) -> None
